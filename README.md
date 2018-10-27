@@ -1,5 +1,6 @@
 # Secure-Instant-Messaging-System-based-on-Steganography
 This is a instant messaging system based on LSB steganography and camouflage. You can hide your secret messages in images and send them to ours.
+
 1.Instant messaging
 While establishing the instant messaging platform,Our team chose the solutions of Tencent cloud communication.
 we established instant messaging platform and improved some basic functions by updating the original DEMO of Tencent cloud.
