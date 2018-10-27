@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="mobistTheme" parent="Base.Theme.AppCompat.Light" >
+        <item name="colorPrimary">@color/primary_material_light_1</item>
+        <item name="colorPrimaryDark">@color/primary_material_light_2</item>
+    </style>
+
+</resources>

@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+
+android {
+
+    signingConfigs{
+        release{
+            storeFile file("$System.env.KEYSTORE_PATH")
+            storePassword "$System.env.STOREPASS"
+            keyAlias "$System.env.ALIAS"
+            keyPassword "$System.env.KEYPASS"
+        }
+    }
+
+    packagingOptions{
+        exclude '*.apk'
+    }
+    dexOptions {
+        jumboMode true
+    }
+    lintOptions{
+        abortOnError false
+    }
+    buildTypes{
+        release{
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.tencent.qcloud.timchat"
+        minSdkVersion 16
+        targetSdkVersion 23
+
+        /*externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+            }
+        }*/
+        versionCode 1
+        versionName "1.0"
+        /*externalNativeBuild{
+            cmake{
+                cppFlags ""
+            }
+        }*/
+    }
+   externalNativeBuild{
+
+       /*cmake{
+           path "CMakeLists.txt"
+       }*/
+   }
+    /*externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            ndk {
+                // 需要将 x86 架构过滤掉
+                abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86"
+            }
+        }/
+        debug {
+
+            ndk {
+                // 需要将 x86 架构过滤掉
+                abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86"
+            }
+        }
+    }*/
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':presentation')
+    compile 'com.android.support:support-v4:25.0.0'
+    compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile project(':ui')
+    /*compile 'com.google.firebase:firebase-core:9.0.0'
+        compile 'com.google.firebase:firebase-messaging:9.0.0'*/
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile project(path: ':MobiStego')
+
+    compile project(path: ':Gesture')
+}
+
+
+apply plugin: 'com.google.gms.google-services'
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:gravity="fill_horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_send"
+                android:src="@drawable/ic_send_black_24dp"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:text="@string/send" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+
+            <ImageButton
+                android:id="@+id/button_delete"
+                android:src="@android:drawable/ic_menu_delete"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete" />
+
+            <ImageButton
+                android:id="@+id/button_share"
+                android:src="@android:drawable/ic_menu_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="5">
+
+            <ProgressBar
+                android:id="@+id/progrss_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="true" />
+            <ImageView
+                android:id="@+id/image_view_item"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/text_view_item_label"
+                android:layout_width="match_parent"
+                android:paddingTop="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hidden"
+                android:textColor="#BFEFFF"/>
+
+            <TextView
+                android:id="@+id/text_view_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="Arial"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+            <Button
+                android:id="@+id/button_decrypt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/try_decode"
+                android:background="#BFEFFF"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

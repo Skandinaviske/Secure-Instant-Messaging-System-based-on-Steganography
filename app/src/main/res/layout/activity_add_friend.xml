@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tencent.qcloud.timchat.ui.ChatActivity">
+
+    <com.tencent.qcloud.ui.TemplateTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:canBack="true"
+        app:titleText="@string/title_addfri" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.tencent.qcloud.ui.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/head_other" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_gray1"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:name="@string/profile_id"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/add_detail_name"/>
+        <EditText
+            android:id="@+id/editNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:textCursorDrawable="@color/black" />
+    </LinearLayout>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        app:canNav="true"
+        app:name="@string/add_detail_group"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="@string/add_detail_message"/>
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:textCursorDrawable="@color/black" />
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+
+    <TextView
+        android:id="@+id/btnAdd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="发送添加好友请求"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#BFEFFF"
+        android:textColor="#171717" />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:E.\newsample\sample\sdk\libs\HwPush_SDK_V2705.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sdk/libs/HwPush_SDK_V2705.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

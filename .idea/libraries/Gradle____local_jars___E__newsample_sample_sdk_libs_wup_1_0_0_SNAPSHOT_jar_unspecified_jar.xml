@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:E.\newsample\sample\sdk\libs\wup-1.0.0-SNAPSHOT.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sdk/libs/wup-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\cff9a68d771f36679d95e7909cb094aeceefd31e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a177ebf08443b7ab4d0cebb7f4470f975483bb7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5fe9dcdaca41bdb2874b503a628723c658346c8">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\libammsdk_ef65a8c865d2bfb1cd7c6cd01ba361d4b14232b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\open_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9df6cd90896d8685876a6e89d18a23d9240af9a0">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\open_sdk_24ef797cca6b62c25a4b25dd33b32594ede38289\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\txrtmpsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2559360c80eb1ccd4865b9dfd207bb15317e205a">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\txrtmpsdk_55d02c07310b4c1bf8fada377f320b10281a35cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\b0adcfda6b8f93d564fada248482554c08c2804c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37840564ef4db4211f31180195f67adb0056147f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\txrtmpsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2559360c80eb1ccd4865b9dfd207bb15317e205a">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\txrtmpsdk_55d02c07310b4c1bf8fada377f320b10281a35cf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\7784550e219e1f46eb7f01af7e0c3cae9597b95e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6bfcefb27d85de6fe5f673fd4d1050c179aed06b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_sns_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6523855a0a3c8133996a8ba0e39272b3cb5e1ec">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\imsdk_sns_ext_b6943fd012bf41af2211dae08558f66f990ce5c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_group_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6756eb6a09109dc103c8bb2d63a3c66931d35b74">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\imsdk_group_ext_41fa65b29d471f074124d21f4dcab5fb7d4f199a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_sns_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6523855a0a3c8133996a8ba0e39272b3cb5e1ec">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\imsdk_sns_ext_b6943fd012bf41af2211dae08558f66f990ce5c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_group_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6756eb6a09109dc103c8bb2d63a3c66931d35b74">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\imsdk_group_ext_41fa65b29d471f074124d21f4dcab5fb7d4f199a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\ui\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcdebfc68d7733265b5797731544f5500cef8138">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\classes_ce5c790e7deb32729915808269086f3c1d3cd0b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed71856de464ff25335fdf6593662a2ba7f62535">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\wup-1.0.0-SNAPSHOT_931d98a9c571c07c1ca164eac09cac11eea4b0b3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed71856de464ff25335fdf6593662a2ba7f62535">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\wup-1.0.0-SNAPSHOT_931d98a9c571c07c1ca164eac09cac11eea4b0b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\cos-sdk-android.1.4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5bf755629adb4d4a24b46674389d636827e0fc64">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\cos-sdk-android.1.4.3.6_a737bf0421f2a25064b9ffec7bb3bfb218de6283.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\libammsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5fe9dcdaca41bdb2874b503a628723c658346c8">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\libammsdk_ef65a8c865d2bfb1cd7c6cd01ba361d4b14232b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\open_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9df6cd90896d8685876a6e89d18a23d9240af9a0">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\open_sdk_24ef797cca6b62c25a4b25dd33b32594ede38289.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\117487dc842eb73d5081ccc49ecec79181b69cf5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0324f7faf70d8e0f62e72fc1004f5210b146e41e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d10a736e5ba77d982fc8b9e2b4e90f83db19f3f">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d67a8f21003c1c454d972f75f72336b978e97e0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="812601a3e5168c758e8bfbca405449a3f93bfcdf">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\imsdk_be5767af6639657c0480caea0ef05a1f607342b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\qalsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fdd4283571cc6e7c97b4a97d6c1526a58b02a0fc">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\qalsdk_4d1f44cbbb147c6e1284ad39c5215c9fe8d38f88.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\qalsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fdd4283571cc6e7c97b4a97d6c1526a58b02a0fc">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\qalsdk_4d1f44cbbb147c6e1284ad39c5215c9fe8d38f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\HwPush_SDK_V2705.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8e7dd11b85867206289b249ae12fd49128e9ca3">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\HwPush_SDK_V2705_788545db43d3a9962bf7a6d236acace3ab466601.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\fd030dfab3024ed72b823cae1c6609f52a5f8a77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_325f736eed81c4e9c4a6871bd317905e4cbd88e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_17d48f5286c6edc3daa1814b63cc952dcea5b9f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="812601a3e5168c758e8bfbca405449a3f93bfcdf">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\imsdk_be5767af6639657c0480caea0ef05a1f607342b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="376a09409df6cb3f0593e8f3e9855423f9018ac9">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_d4b81b35bdb6915700efb3c44edb6348684b2a1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_msg_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6738fae16198aee175a7d18fcb28038e05b47955">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\imsdk_msg_ext_30a58dcc656be8eab70da3416ad0c86aaa462245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\tls_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="310919296be2356d8922c6625c7e2212c81923d1">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\tls_sdk_c556a332b2a70a2a5b9d8995b6429ea685405990.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_569b4d5b4c2e28e49caa3e9b6e297a5c8190f977\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_msg_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6738fae16198aee175a7d18fcb28038e05b47955">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\imsdk_msg_ext_30a58dcc656be8eab70da3416ad0c86aaa462245\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\bbacd170dc6288bc6f0c0f1b417d8376d6ef3526\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f0d836c33498cad477455dd4c6ab66d22b8e832\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\mobilepb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12db2628b7d6bcc9bb7632941f499bf860c503a4">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\mobilepb_10389166d0ba308a1551eca16ac6ca33852d16d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\MiPush_SDK_Client_3_0_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f38b0679890ed99af9675b33b296f9eb29924c0f">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\MiPush_SDK_Client_3_0_3_2dc5f4eb059d871e631dbf5c7a1ef086f4e2b056.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\Gesture\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="572fb951401421c328cd69deef025c5d8261dea9">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\classes_227d509743057b755eb2135e8397edab275a002a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\tls_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="310919296be2356d8922c6625c7e2212c81923d1">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\tls_sdk_c556a332b2a70a2a5b9d8995b6429ea685405990\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\MiPush_SDK_Client_3_0_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f38b0679890ed99af9675b33b296f9eb29924c0f">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\MiPush_SDK_Client_3_0_3_2dc5f4eb059d871e631dbf5c7a1ef086f4e2b056\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\HwPush_SDK_V2705.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8e7dd11b85867206289b249ae12fd49128e9ca3">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\HwPush_SDK_V2705_788545db43d3a9962bf7a6d236acace3ab466601\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc96a1b8821438d09a3fdbd22f7206d4dee358c3">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\okio-1.6.0_5cca1917b989baccd187a39f53c9b0d95ba29ffb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\20f9cffd5d635980ea8aea99684309ad417bf952\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbc160a82df5a9c1d1d9927d0c67e8146ddb6dbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08553b5677c4c75dd9e0c657124c0514aeb2c9a4">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\classes_61706a4aa7573555f24b2a5105de9125f7d45b7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\tlslibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="443983442241fb3fc8b5074e0e91ebe68cab0080">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\classes_01ee9dc1c2830443255c1057052a96c71c24c3b5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\0136ce5ba4bd1bc6eaef0a94edd45f6797099e6e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_10a18ad39a30fde695b54b81a0653953e9841966\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\93a64c563601f1ab153431041c195b2152f7a38f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_18725ba955e5bfb59171ce93167f9bc59d49301b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\4bbeabe80bb4dac17cb1426dca0d1d6e0e9a0b81\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f08a50c20f40d42fb4de4e976971159e9168b8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_ugc_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e096ee3c2430a02f9590e6e76569ad0878765d5">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\imsdk_ugc_ext_ae61f7edaee5ff736280c29069383c026808effe\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\mobilepb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12db2628b7d6bcc9bb7632941f499bf860c503a4">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\mobilepb_10389166d0ba308a1551eca16ac6ca33852d16d3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\02a16b8a010757dfb4d573a3f662c2e232927cd8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67b674c6e3f394872992d99e992cf177c5dd26b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\887865eba1521cb74c6d6f0516a7235c2c2793b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a49ae15bf04dbda206d81735ad2b2a6f5f50a57e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\be578707af3a06c4aebe4ce98eda32233b8c0a3a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a2e8552d9a61d254f33539e6947b1f4eacd0298\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\MobiStego\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="082398fbb8187eaa9120f4fc11c6533e1779be78">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\classes_aab83b732fed49627aa94efe1fba570eb7dfaa8b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="376a09409df6cb3f0593e8f3e9855423f9018ac9">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\okhttp-3.2.0_d4b81b35bdb6915700efb3c44edb6348684b2a1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\482d2b84edcb666cc3cf995878d66142f1c5ede1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b43cbd5115bd64d3446584fa0da60fca063914c5">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5126c31c3aacde12da72ede813a0ad010a31bd9a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\658b859ff95d2015459f85ba1120c07e0bbad4fb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7f4feb1075529b165f1398e9a980d8ae68ce1c73\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\soload.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6becc9c086f7be9f85881c088d5c0a8d54553a6d">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\soload_31e9a323298794bd094e40c91ea7cadb7e5ea0de.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\bugly_2.4.0_imsdk_release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfcd0f03a806d4be369ab8381dee2681822ef35f">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\bugly_2.4.0_imsdk_release_bb8d97b7986e7f6f1071525c05837cc0d778be2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\ba73d66772ddb89e8788d42b48d4d7ed1623ca11\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16e63796568d87675be775f604a33ae2d808d5a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\presentation\build\intermediates\bundles\default\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="465509eb883364089c69dd90f0142d70539d642d">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\classes_1392b176e8e73d984300debb0763c2032de98eb0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\cac6f0f71595bee55f9670269addf4e0a3b6d047\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d998cc25b1a141f33609c805da4a863556849be5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\9be2684303e6b059c1011d53e10d3e818f9e85bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3473dd0812c9ab7a8f83d04c0bee095fb20c4914\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\cos-sdk-android.1.4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5bf755629adb4d4a24b46674389d636827e0fc64">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\cos-sdk-android.1.4.3.6_a737bf0421f2a25064b9ffec7bb3bfb218de6283\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\08515569de438ab4ea8d09ad9e22da823d9a4095\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25dcb709ac4b1eac91ab39ed738cd9734520c701\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_97f83415b20efd564dcb7b7c6234c59761e9658c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\imsdk_ugc_ext.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e096ee3c2430a02f9590e6e76569ad0878765d5">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\imsdk_ugc_ext_ae61f7edaee5ff736280c29069383c026808effe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\bugly_2.4.0_imsdk_release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfcd0f03a806d4be369ab8381dee2681822ef35f">
+        <dex dex="E:\newsample\sample\app\build\intermediates\pre-dexed\debug\bugly_2.4.0_imsdk_release_bb8d97b7986e7f6f1071525c05837cc0d778be2d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\181f2005406742e5dfd7a8d39efa0b91a3f1e723\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09adf6e61abc0fe3b2cb5b1795a7033572475fad">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35d381c996d036af8d7652401dafb383305713a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc96a1b8821438d09a3fdbd22f7206d4dee358c3">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\okio-1.6.0_5cca1917b989baccd187a39f53c9b0d95ba29ffb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\pc\.android\build-cache\fddb5ebf1a4bf658556ee5ba034af80f8df6b730\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65413a56666676c93190de3a9660b17490399b18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newsample\sample\sdk\build\intermediates\bundles\default\libs\soload.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6becc9c086f7be9f85881c088d5c0a8d54553a6d">
+        <dex dex="E:\newsample\sample\app\build\intermediates\transforms\dex\debug\folders\1000\8\soload_31e9a323298794bd094e40c91ea7cadb7e5ea0de\classes.dex" />
+    </item>
+
+</items>

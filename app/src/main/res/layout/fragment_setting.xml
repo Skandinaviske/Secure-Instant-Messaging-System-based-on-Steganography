@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.tencent.qcloud.timchat.ui.SettingFragment">
+
+    <com.tencent.qcloud.ui.TemplateTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleText="@string/home_setting_tab" />
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <com.tencent.qcloud.ui.CircleImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/head_me"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/idtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_gray1"
+                android:layout_marginTop="3dp"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/nickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:name="@string/setting_nick_name_change"
+        app:canNav="true"/>
+
+    
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/friendConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/setting_friend_confirm"
+        app:content="@string/setting_friend_need_confirm"
+        app:canNav="true"/>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/messageNotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/setting_message_notify"
+        app:canNav="true"/>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/blackList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/setting_black_list"
+        app:canNav="true"/>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="@string/setting_about"
+        app:isBottom="false"
+        app:canNav="true"/>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/gesture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:name="手势设置"
+        app:isBottom="true"
+        app:canNav="true"/>
+
+
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:background="@drawable/bg_negative_btn"
+        android:textColor="@color/text_btn"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/setting_logout"/>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#282829"
+        android:layout_marginBottom="2dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#BFEFFF"
+            android:textSize="18dp"
+            android:text="StegChat" />
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:text="not only an image" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="8dp"
+            android:textColor="#BFEFFF"
+            android:text="图片隐写小助手" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_list_view"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_marginTop="2dp"
+            android:columnWidth="90dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center">
+
+
+        </ListView>
+    </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/add"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:id="@+id/button_add"
+
+        android:background="@drawable/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp" />
+
+    <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/material_blue_grey_800">
+
+            <ImageButton
+                android:id="@+id/main_button_pick_photo_decode"
+                android:layout_weight="1"
+                android:src="@drawable/photo_32"
+                android:background="@color/material_blue_grey_800"
+                android:layout_width="fill_parent"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:text="@string/decode" />
+
+            <ImageButton
+                android:id="@+id/main_button_take_photo"
+                android:layout_gravity="left"
+                android:src="@drawable/add_camera_32"
+                android:background="@color/material_blue_grey_800"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/take_photo" />
+
+            <ImageButton
+                android:id="@+id/main_button_pick_photo"
+                android:layout_weight="1"
+                android:src="@drawable/image"
+                android:background="@color/material_blue_grey_800"
+                android:layout_width="fill_parent"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:text="@string/pict_photo" />
+
+        </LinearLayout>-->
+</RelativeLayout>
+

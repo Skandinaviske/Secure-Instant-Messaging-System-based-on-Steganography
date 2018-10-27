@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1090026333890",
+    "firebase_url": "https://timchat-33f83.firebaseio.com",
+    "project_id": "timchat-33f83",
+    "storage_bucket": "timchat-33f83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090026333890:android:440e89565ece68d8",
+        "android_client_info": {
+          "package_name": "com.tencent.qcloud.timchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090026333890-jjqnvpkej4sei6gcfgi6tuft7bd8golo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1XuE2fMKpYjWvACqvV1RjQIVUd0af9dw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

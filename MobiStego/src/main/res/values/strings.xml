@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobiStego</string>
+    <string name="main_title">MobiStego</string>
+    <string name="enter_text">请输入隐写内容&#8230;</string>
+    <string name="enter_password">请输入加密密码&#8230;</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">完成</string>
+    <string name="encode">加密</string>
+    <string name="decode">解密</string>
+    <string name="pict_photo">Pict</string>
+    <string name="take_photo">Take</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="send">Send&#8230;</string>
+    <string name="encoding">加密信息</string>
+    <string name="decoding">解密信息</string>
+    <string name="loading">加载中，请稍候&#8230;</string>
+    <string name="suredelte">想删除这个项目吗?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="abort">返回</string>
+    <string name="no_mobistego_image">里面没有隐藏内容</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="choose">请选择</string>
+    <string name="hidden">隐藏的信息</string>
+    <array name="operations">
+        <item>拍照并隐写</item>
+        <item>相册中隐写</item>
+        <item>相册中显隐</item>
+    </array>
+    <string name="add">+</string>
+    <string name="no_permission">No permissions, restart app</string>
+    <string name="try_decode">解密</string>
+    <string name="wrong_password">密码错误</string>
+
+
+</resources>

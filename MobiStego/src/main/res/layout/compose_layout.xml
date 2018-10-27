@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ProgressBar
+        android:id="@+id/progrss_compose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:indeterminate="true" />
+    <ImageView
+        android:id="@+id/compose_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+    <!-- <ImageView
+         android:id="@+id/compose_background"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/abc_background_cache_hint_selector_material_dark"
+         android:tintMode="src_over"
+         android:scaleType="centerCrop"
+         android:background="@android:color/transparent" />
+ -->
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_margin="22dp">
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/compose_edit"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_height="fill_parent"
+            android:hint="@string/enter_text"
+            android:textColorHint="#BFEFFF"
+            android:maxLines="12"
+            android:inputType="textMultiLine"
+            android:textColor="#BFEFFF"
+            android:background="#e6535353"
+            android:scrollbars="vertical"
+            android:minLines="15"
+
+            android:alpha="0.6" />
+        <LinearLayout
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxSecret"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/compose_edit_password"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_password"
+                android:textColorHint="#BFEFFF"
+                android:inputType="textMultiLine"
+                android:textColor="#BFEFFF"
+                android:background="#e6535353"
+                android:gravity="center_vertical"
+                android:enabled="false"
+                android:minLines="2"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/compose_button_encode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/encode"
+                android:background="#BFEFFF"
+                android:textColor="#171717"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

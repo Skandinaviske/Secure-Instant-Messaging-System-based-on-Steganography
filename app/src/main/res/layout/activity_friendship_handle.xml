@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.tencent.qcloud.timchat.ui.FriendshipHandleActivity">
+    <com.tencent.qcloud.ui.TemplateTitle
+        android:id="@+id/profile_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:canBack="true"
+        app:titleText="@string/friendship_handle_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.tencent.qcloud.ui.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/head_other" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_gray1"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/friendship_handle_word"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_gray1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btnReject"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_negative_btn"
+            android:textColor="@color/text_btn"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/friendship_handle_reject"/>
+        <TextView
+            android:id="@+id/btnAgree"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_positive_btn"
+            android:textColor="@color/text_btn"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/friendship_handle_ok"/>
+    </LinearLayout>
+</LinearLayout>

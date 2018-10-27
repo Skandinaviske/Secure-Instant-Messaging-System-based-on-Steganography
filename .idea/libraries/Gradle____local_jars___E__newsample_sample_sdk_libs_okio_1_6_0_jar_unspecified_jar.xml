@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:E.\newsample\sample\sdk\libs\okio-1.6.0.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sdk/libs/okio-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

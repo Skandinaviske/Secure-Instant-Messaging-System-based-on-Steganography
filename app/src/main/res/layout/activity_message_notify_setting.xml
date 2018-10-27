@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tencent.qcloud.timchat.ui.MessageNotifySettingActivity">
+    <com.tencent.qcloud.ui.TemplateTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:canBack="true"
+        app:titleText="@string/message_notify_title" />
+
+
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/messagePush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:name="@string/message_notify_push"
+        app:isSwitch="true"/>
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/c2cMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isSwitch="true"
+        app:name="@string/message_notify_c2c_music" />
+    <com.tencent.qcloud.ui.LineControllerView
+        android:id="@+id/groupMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isSwitch="true"
+        app:isBottom="true"
+        app:name="@string/message_notify_group_music" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">手势识别器</string>
+    <string name="enter_name">输入名称：</string>
+    <string name="enter_new_name">输入新名称：</string>
+    <string name="save_gesture">保存手势</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="invalid_name">请输入有效的名称</string>
+    <string name="gesture_saved">成功保存至：</string>
+    <string name="no_gesture">请先绘制手势！</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="add_gesture_button">添加</string>
+    <string name="test_gesture_button">测试</string>
+    <string name="cannot_load_library">无法加载手势库</string>
+    <string name="test_gesture_activity_label">测试手势</string>
+    <string name="draw_a_gesture">绘制手势以识别：</string>
+</resources>
