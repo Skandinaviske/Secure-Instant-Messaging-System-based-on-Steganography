@@ -16,3 +16,5 @@ Users can set the password sequences of the volume keys,in the case of applicati
 Our application based on stable and reliable LSB(LeastSignificant Bits) algorithm, providing users with secret channel in picture carrier. 
 It ensures that those hidden information will not be found bu attackers in the process of information transfer.
 The LSB Demo referes to https://github.com/paspao/MobiStego. Thanks his demo.
+
+This program is designed by the group of Ailwyn Liang.
