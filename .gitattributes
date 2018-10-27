@@ -1,6 +1,6 @@
-   *.js linguist-language=Java
-   *.css linguist-language=Java
-   *.html linguist-language=Java
-   *.java linguist-language=Java
-   *.c linguist-language=Java
-   *.cxx linguist-language=Java
+   *.js linguist-language= Java
+   *.css linguist-language= Java
+   *.html linguist-language= Java
+   *.java linguist-language= Java
+   *.c linguist-language= Java
+   *.cxx linguist-language= Java
