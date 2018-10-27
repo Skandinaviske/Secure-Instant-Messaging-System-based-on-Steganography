@@ -1,1 +1,2 @@
-*.c linguist-language=Java。
+*.c linguist-language=Java
+*.xml linguist-language=Java
