@@ -20,7 +20,7 @@ The LSB Demo referes to https://github.com/paspao/MobiStego. Thanks his demo.
 
 ***See the four videos step by step to know how to use this App***
 ========================================================================
-Volume button controlled password.mp4  Add friend and chat.mp4  Gesture recognition.mp4 Steganography based on LSB.mp4
+Volume button controlled password.mp4  Add friend and chat.mp4  Gesture recognition.mp4  Steganography based on LSB.mp4  in the program!
 ===========================================================================================================================================
 
 This program is designed by the group of Ailwyn Liang.
