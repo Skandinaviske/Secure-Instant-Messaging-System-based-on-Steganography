@@ -25,5 +25,3 @@ It ensures that those hidden information will not be found bu attackers in the p
 ### See the four videos step by step to know how to use this App
 你可以下载项目中四个.mp4文件来了解本项目的基本用法。  
 Volume button controlled password.mp4  Add friend and chat.mp4  Gesture recognition.mp4  Steganography based on LSB.mp4  in the program!  
-
-This program is designed by the group of Ailwyn.  
